@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MultipleProducerConsumer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultipleProducerConsumer_jar</output-path>
+    <root id="archive" name="MultipleProducerConsumer.jar">
+      <element id="module-output" name="MultipleProducerConsumer" />
+    </root>
+  </artifact>
+</component>

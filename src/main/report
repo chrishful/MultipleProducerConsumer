@@ -1,0 +1,12 @@
+Multiple Producer Consumer, Chris Hickman
+
+In this program, I have implemented multithreading and
+synchronization in a multiple producer/consumer atmosphere. Given
+a queue by the user, Restaurant reads in the data, then starts customer threads for
+each customer, as well as one for each waiter. Then, each waiter starts
+a separate thread for each customer. Each customer is served the three
+dishes they ordered in the correct order, and each waiter serves their
+delegated customers.
+The program works without any issues from what I can see, given the two output
+files general.txt and minions.txt.
+The program can be run through the .jar file, located in artifacts.
